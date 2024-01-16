@@ -57,3 +57,7 @@ WHERE
     FROM
       stats_tbl
   )
+
+| team_with_the_most_wins |	num_wins |
+--------------------------------------
+|           SAS	          | 1184     |
