@@ -39,15 +39,23 @@ WITH
       )
   )
 SELECT
-  fct_team_abbr,
-  ttl_wins,
+  fct_player_name,
+  ttl_points_scored,
+  season,
   RANK() OVER (
     ORDER BY
-      ttl_wins DESC
+      ttl_points_scored DESC
   ) AS RANK
 FROM
   STATS
 WHERE
-  fct_team_abbr IS NOT NULL
-  AND fct_player_name IS NULL
-  AND season IS NULL
+  fct_player_name IS NOT NULL
+  AND fct_player_name IS NOT NULL
+  AND season IS NOT NULL
+
+| fct_player_name | ttl_points_scored | season | RANK |
+|-----------------|-------------------|--------|------|
+| James Harden    | 3506              | 2019   | 1    |
+| Kevin Durant    | 3228              | 2012   | 2    |
+| Kobe Bryant     | 3175              | 2009   | 3    |
+
