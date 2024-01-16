@@ -37,3 +37,12 @@ GROUP BY
     (fct_player_name, season),
     (fct_team_abbr)
   )
+
+
+| fct_player_name            | fct_team_abbr | season | ttl_points_scored | ttl_wins |
+|----------------------------|---------------|--------|-------------------|----------|
+| Keita Bates-Diop           | SAS           | null   | 671               | 159      |
+| Pat Connaughton            | MIL           | null   | 2538              | 391      |
+| Thanasis Antetokounmpo     | MIL           | null   | 494               | 276      |
+| Ayo Dosunmu                | CHI           | null   | 1040              | 120      |
+| Jalen Johnson              | ATL           | null   | 228               | 93       |
