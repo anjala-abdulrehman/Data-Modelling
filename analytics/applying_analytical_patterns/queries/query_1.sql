@@ -42,3 +42,14 @@ SELECT
     END as_state_indicator
 FROM
     bootcamp.nba_players
+
+
+-- Query Result
+
+| player_name | current_season     | is_active     | years_since_last_active  | state_indicator  |
+| -------------------------------------------------------------------------------------------------
+| Brett Szabo | 	1996	   | true	   |            0	       | New             |
+| Brett Szabo | 	1997	   | false	   |            1	       | Retired         |
+| Brett Szabo | 	1998	   | false         |            2	       | Stayed Retired  |
+| Brett Szabo | 	1998	   | false	   |            2	       | Stayed Retired  |
+| Brett Szabo | 	1999	   | false	   |            3	       | Stayed Retired  |
