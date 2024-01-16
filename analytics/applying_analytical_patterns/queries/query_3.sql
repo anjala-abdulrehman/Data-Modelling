@@ -51,3 +51,10 @@ FROM
 WHERE
   fct_player_name IS NOT NULL
   AND fct_team_abbr IS NOT NULL
+
+
+| fct_player_name | fct_team_abbr | ttl_points_scored   | RANK |
+|-----------------|---------------|---------------------|------|
+| LeBron James    | CLE           | 28314               | 1    |
+| Dirk Nowitzki   | DAL           | 27927               | 2    |
+| Kobe Bryant     | LAL           | 27287               | 3    |
