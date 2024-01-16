@@ -51,3 +51,12 @@ FROM
 WHERE
   season IS NOT NULL
   AND fct_player_name IS NOT NULL
+
+
+| fct_team_abbr | ttl_wins | RANK |
+|---------------|----------|------|
+| MIA           | 24032    | 1    |
+| BOS           | 23851    | 2    |
+| SAS           | 23621    | 3    |
+| LAL           | 23259    | 4    |
+| DAL           | 23099    | 5    |
