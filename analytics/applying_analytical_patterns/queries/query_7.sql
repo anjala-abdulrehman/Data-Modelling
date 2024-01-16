@@ -50,3 +50,6 @@ SELECT
   ) as num_consecutive_10_or_more_score
 FROM
   concecutive_games
+
+| num_consecutive_10_or_more_score | 
+| 1624                             |
